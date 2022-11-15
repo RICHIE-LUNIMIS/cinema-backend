@@ -101,12 +101,12 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # }
 
 # Local Database
- DATABASES = {
+DATABASES = {
      'default': {
          'ENGINE': 'django.db.backends.sqlite3',
          'NAME': BASE_DIR / 'db.sqlite3',
-     }
- }
+    }
+}
 
 # Heroku PostgreSQL Database
 
